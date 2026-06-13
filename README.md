@@ -34,7 +34,33 @@ Flexibilidad en volúmenes:
    * Formato de disco: el dispositivo de almacenamiento que utiliza Glusterfs debe ser un disco si formato.
      No debe ser formateado, ni particionados.
 
-     
+
+  Despliegue de GlusterFS en tres (3) máquinas virtuales, simulación de caída y recuperación del nodo. 
+   Los tres nodos
+
+  
+
+         Nodo
+      Hostname
+    Dirección IP
+     Tipo de nodo
+        VM-1
+       gluster1
+    192.168.1.115
+        Maestro
+        VM-2
+       gluster2
+    192.168.1.116
+
+        VM-3
+       gluster3
+    192.168.1.117
+
+
+
+
+
+   
          
 <img width="645" height="368" alt="image" src="https://github.com/user-attachments/assets/ae1f2802-fdbb-4065-bc4a-431ec1396106" />
 
