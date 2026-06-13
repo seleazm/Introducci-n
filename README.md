@@ -6,6 +6,7 @@ necesarios para un sistema de archivos de red distribuido. Contiene tres instanc
    En este informe se puede ver como con Glusterfs se puede mantener la disponibilidad de los datos ante la caída de un nodo por medio de la replicación; y cuando este vuelve a estar disponible el sistema realiza la recuperación y la sincronización de la información. 
 
 
+
 Objetivo Principales 
 Alta disponibilidad:
   * Mantener los datos accesibles incluso si el  nodo falla.
@@ -23,6 +24,7 @@ Flexibilidad en volúmenes:
   * volumen disperso: Diivide la información en fragmentos, añade bloques de paridad para recuperar
                       datos. 
 
+
  Requisitos del Sistema para configurar GlusterFS
    * Nodos: se necesita minimo dos (2) hosts para tolerancia a fallo, pero se recomienda tres (3) para 
          configuraciones de alta disponibilidad. 
@@ -30,6 +32,10 @@ Flexibilidad en volúmenes:
          con una capacidad de al menos 25 GB.
    * Memoria (RAM): Al 8 GB por servidor.
    * Formato de disco: el dispositivo de almacenamiento que utiliza Glusterfs debe ser un disco si formato.
-     No debe ser formateado, ni particionados. 
+     No debe ser formateado, ni particionados.
+
+     
          
-                    
+<img width="645" height="368" alt="image" src="https://github.com/user-attachments/assets/ae1f2802-fdbb-4065-bc4a-431ec1396106" />
+
+           
