@@ -22,3 +22,14 @@ Flexibilidad en volúmenes:
                         niblesen los demás nodos.
   * volumen disperso: Diivide la información en fragmentos, añade bloques de paridad para recuperar
                       datos. 
+
+ Requisitos del Sistema para configurar GlusterFS
+   * Nodos: se necesita minimo dos (2) hosts para tolerancia a fallo, pero se recomienda tres (3) para 
+         configuraciones de alta disponibilidad. 
+   * Almacenamiento en (brick): es el dispositivo de almacenamiento que se utiliza para GlusterFS debe contar 
+         con una capacidad de al menos 25 GB.
+   * Memoria (RAM): Al 8 GB por servidor.
+   * Formato de disco: el dispositivo de almacenamiento que utiliza Glusterfs debe ser un disco si formato.
+     No debe ser formateado, ni particionados. 
+         
+                    
