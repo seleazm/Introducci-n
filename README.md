@@ -9,15 +9,20 @@ necesarios para un sistema de archivos de red distribuido. Contiene tres instanc
 
 
 Objetivo Principales 
+
 Alta disponibilidad:
   * Mantener los datos accesibles incluso si el  nodo falla.
   * Reducir los puntos únicos de fallo.
+
 Tolerancia a fallo:
   * Protege los datos mediante la replica o dispersión entre varios nodos.
-centralización de almacenamiento:
+
+Centralización de almacenamiento:
   * Unifica el espacio de almacenamiento de múltiples servidoresen un únicosistema de archivos.
+
 Arquitectura Cliente-Servidor:
   * Los servidoresexportanboquesde almacenamiento de múltiples servidoresen un único sistema de archivos.
+
 Flexibilidad en volúmenes:
   * volumen distribuido: Maximiza la capacidad de almacenamiento disponible, no ofrece redundancia.
   * volumen replicados: Proporciona alta disponibilidad. Si un nodo falla, los datos siguen dispo-
