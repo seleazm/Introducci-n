@@ -159,7 +159,8 @@ Flexibilidad en volúmenes:
 
        
    
-<img width="488" height="64" alt="image" src="https://github.com/user-attachments/assets/54d77b02-a451-4f98-b72a-485ea4a020a6" />
+<img width="465" height="230" alt="image" src="https://github.com/user-attachments/assets/8cca9b5c-235e-44b8-89b2-ce38436d7163" />
+
 
 
    
