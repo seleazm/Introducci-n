@@ -68,7 +68,7 @@ Flexibilidad en volúmenes:
    Configurar resolución de nombres        
 
     Para la configuración de los nodos de GlusterFS se debe configurar el archivo /etc/hosts de cada máquina virtual.
-   También, se puede automatiza comleta del nodo maestro. Si el nodo maestro tiene acceso SSH a los otros nodos mediante la clave pública 
+   También, se puede automatiza completa del nodo maestro. Si el nodo maestro tiene acceso SSH a los otros nodos mediante la clave pública 
    puede automatizar todo el proceso.
 
    
