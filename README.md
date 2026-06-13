@@ -39,29 +39,14 @@ Flexibilidad en volúmenes:
    Los tres nodos
 
   
-
-         Nodo
-      Hostname
-    Dirección IP
-     Tipo de nodo
-        VM-1
-       gluster1
-    192.168.1.115
-        Maestro
-        VM-2
-       gluster2
-    192.168.1.116
-
-        VM-3
-       gluster3
-    192.168.1.117
+<img width="649" height="142" alt="image" src="https://github.com/user-attachments/assets/990f13b1-3d26-4f86-b1fd-4e1fa66ab5ff" />
 
 
+       
+  Iniciar y habiliatar el servicio GlusterFS
 
 
-
-   
-         
+            
 <img width="645" height="368" alt="image" src="https://github.com/user-attachments/assets/ae1f2802-fdbb-4065-bc4a-431ec1396106" />
 
-           
+   Configurar resolución de nombres        
