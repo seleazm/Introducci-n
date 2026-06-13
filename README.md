@@ -92,25 +92,35 @@ Flexibilidad en volúmenes:
     Iniciar el volumen 
 
 
-    <img width="528" height="65" alt="image" src="https://github.com/user-attachments/assets/cda0e681-4738-4efc-a383-a98c7a913d83" />
+<img width="528" height="65" alt="image" src="https://github.com/user-attachments/assets/e0171ec2-e6c5-4a10-8b5e-5a3fda941946" />
 
+    
 
 
     Verificación del volumen 
 
-    <img width="522" height="363" alt="image" src="https://github.com/user-attachments/assets/a0e9880c-5d25-407e-9f03-a64ec0479b13" />
+   
+   <img width="522" height="363" alt="image" src="https://github.com/user-attachments/assets/0230f9ae-8a46-4e39-9ca4-f006efac0d58" />
+
+
 
 
      Montar el volumen cliente
 
-     
-     <img width="649" height="61" alt="image" src="https://github.com/user-attachments/assets/872eca0e-f50d-4816-b33b-8cd94bb14436" />
+   
+
+    
+<img width="649" height="61" alt="image" src="https://github.com/user-attachments/assets/8524e1ae-3aca-4de4-887a-301c2bcc347d" />
 
 
+
+    
      Comprobación de que el montaje se creo 
 
 
-     <img width="652" height="258" alt="image" src="https://github.com/user-attachments/assets/7669c582-c593-41b0-b0b8-5d86e92f9249" />
+    
+<img width="652" height="258" alt="image" src="https://github.com/user-attachments/assets/d6c5c59d-23d4-467f-96b6-147b795267ab" />
+
 
 
      Simulación de la caída de un nodo
@@ -118,7 +128,8 @@ Flexibilidad en volúmenes:
        Apago el nodo 3  (gluster3)  
 
        
-    <img width="488" height="64" alt="image" src="https://github.com/user-attachments/assets/4bf84059-14b2-4435-8430-c3c45ea21763" />
+   
+<img width="488" height="64" alt="image" src="https://github.com/user-attachments/assets/54d77b02-a451-4f98-b72a-485ea4a020a6" />
 
 
      Verificación del estado del nodo 3 desde el nodo 1
