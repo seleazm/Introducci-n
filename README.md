@@ -7,6 +7,7 @@ necesarios para un sistema de archivos de red distribuido. Contiene tres instanc
 
 
 
+
 Objetivo Principales 
 Alta disponibilidad:
   * Mantener los datos accesibles incluso si el  nodo falla.
@@ -25,6 +26,7 @@ Flexibilidad en volúmenes:
                       datos. 
 
 
+
  Requisitos del Sistema para configurar GlusterFS
    * Nodos: se necesita minimo dos (2) hosts para tolerancia a fallo, pero se recomienda tres (3) para 
          configuraciones de alta disponibilidad. 
@@ -36,11 +38,14 @@ Flexibilidad en volúmenes:
 
 
 
+
+
   Despliegue de GlusterFS en tres (3) máquinas virtuales, simulación de caída y recuperación del nodo. 
    Los tres nodos
 
   
 <img width="649" height="142" alt="image" src="https://github.com/user-attachments/assets/990f13b1-3d26-4f86-b1fd-4e1fa66ab5ff" />
+
 
 
 
@@ -53,6 +58,8 @@ Flexibilidad en volúmenes:
 
 
 
+
+
    Configurar resolución de nombres        
 
     Para la configuración de los nodos de GlusterFS se debe configurar el archivo /etc/hosts de cada máquina virtual.
@@ -61,6 +68,7 @@ Flexibilidad en volúmenes:
 
    
 
+
    Se configura la conectividad entre nodos
 
    <img width="594" height="112" alt="image" src="https://github.com/user-attachments/assets/c584a123-f0f1-4c29-8bc9-7b8db19e361a" />
@@ -68,14 +76,20 @@ Flexibilidad en volúmenes:
    <img width="648" height="129" alt="image" src="https://github.com/user-attachments/assets/294bff39-d7c1-47a1-a127-75babe14d9c6" />
 
 
+
+
   Añadir el peer desde el nodo maestro
 
    <img width="515" height="97" alt="image" src="https://github.com/user-attachments/assets/b0257e80-f344-4d55-8410-70a5d3171119" />
 
 
+
+
   Verificar el estado del Clúster
 
 <img width="484" height="215" alt="image" src="https://github.com/user-attachments/assets/0ce9777c-e2d4-442e-b5f4-c1a8246e97c8" />
+
+
 
 
   
@@ -84,9 +98,13 @@ Flexibilidad en volúmenes:
    <img width="511" height="70" alt="image" src="https://github.com/user-attachments/assets/6beba92b-e93e-48f1-8733-85fe970ef708" />
 
 
+
+
    Crear un volumen replicado 
 
    <img width="650" height="100" alt="image" src="https://github.com/user-attachments/assets/04cf77c8-08ad-4601-97e4-e79d48c8d64e" />
+
+
 
 
     Iniciar el volumen 
@@ -97,6 +115,7 @@ Flexibilidad en volúmenes:
     
 
 
+
     Verificación del volumen 
 
    
@@ -105,12 +124,16 @@ Flexibilidad en volúmenes:
 
 
 
+
+ 
      Montar el volumen cliente
 
    
 
     
 <img width="649" height="61" alt="image" src="https://github.com/user-attachments/assets/8524e1ae-3aca-4de4-887a-301c2bcc347d" />
+
+
 
 
 
@@ -123,6 +146,8 @@ Flexibilidad en volúmenes:
 
 
 
+
+
      Simulación de la caída de un nodo
  
        Apago el nodo 3  (gluster3)  
@@ -132,13 +157,20 @@ Flexibilidad en volúmenes:
 <img width="488" height="64" alt="image" src="https://github.com/user-attachments/assets/54d77b02-a451-4f98-b72a-485ea4a020a6" />
 
 
+   
+
+ 
      Verificación del estado del nodo 3 desde el nodo 1
 
 
-     <img width="465" height="230" alt="image" src="https://github.com/user-attachments/assets/b97338a3-9541-4965-8e5b-f9f786f9c43a" />
+   
+<img width="522" height="363" alt="image" src="https://github.com/user-attachments/assets/0c1a4831-e8b2-4a1a-a9b2-72d613836e79" />
 
 
 
+
+
+ 
      Recuperación del nodo 
 
       Con sudo systemctl start glusterd se enciende el nodo
@@ -146,7 +178,8 @@ Flexibilidad en volúmenes:
       Con sudo systemctl status glusterd  se comprueba que el nodo esta encendido.
 
      
-     <img width="651" height="381" alt="image" src="https://github.com/user-attachments/assets/9dbbec25-187f-4ddf-83e2-f41714cf1410" />
+  <img width="651" height="381" alt="image" src="https://github.com/user-attachments/assets/2d5fcb8a-a03a-447c-8fd8-35cd05111b5c" />
+
 
 
 
@@ -155,7 +188,9 @@ Flexibilidad en volúmenes:
 
       Se realiza desde el nodo 1 
 
-     <img width="485" height="235" alt="image" src="https://github.com/user-attachments/assets/775b7a8f-8fd2-4575-8b6c-65b5c2600e46" />
+ <img width="485" height="235" alt="image" src="https://github.com/user-attachments/assets/4adfcaa5-5299-4e2f-86f8-8af23942767c" />
+
+
 
 
     
@@ -164,5 +199,5 @@ Flexibilidad en volúmenes:
        Consulta el estado del nodo
 
 
-       <img width="583" height="259" alt="image" src="https://github.com/user-attachments/assets/41cf90b3-a43d-4706-8c5c-8ffc81d9b00c" />
+<img width="583" height="259" alt="image" src="https://github.com/user-attachments/assets/41cf90b3-a43d-4706-8c5c-8ffc81d9b00c" />
 
