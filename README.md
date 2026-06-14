@@ -38,7 +38,7 @@ Flexibilidad en volúmenes:
          configuraciones de alta disponibilidad. 
    * Almacenamiento en (brick): es el dispositivo de almacenamiento que se utiliza para GlusterFS debe contar 
          con una capacidad de al menos 25 GB.
-   * Memoria (RAM): Al 8 GB por servidor.
+   * Memoria (RAM): 8 GB por servidor.
    * Formato de disco: el dispositivo de almacenamiento que utiliza Glusterfs debe ser un disco si formato.
      No debe ser formateado, ni particionados.
 
@@ -47,6 +47,7 @@ Flexibilidad en volúmenes:
 
 
   Despliegue de GlusterFS en tres (3) máquinas virtuales, simulación de caída y recuperación del nodo. 
+  
    Los tres nodos
 
   
