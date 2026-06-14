@@ -3,6 +3,7 @@
    confiable y eficiente.Esta arquitectura de referencia contiene los componentes de infraestructura
 necesarios para un sistema de archivos de red distribuido. Contiene tres instancias con hardware dedicado, que es el mínimo necesario para configurar una alta disponibilidad para GlusterFS.
  En una configuración de tres servidores, al menos dos servidores deben estar en línea para permitir operaciones de escritura en el cluster. Los datos se replican en todos los nodos.
+   
    En este informe se puede ver como con Glusterfs se puede mantener la disponibilidad de los datos ante la caída de un nodo por medio de la replicación; y cuando este vuelve a estar disponible el sistema realiza la recuperación y la sincronización de la información. 
 
 
