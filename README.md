@@ -9,7 +9,7 @@ necesarios para un sistema de archivos de red distribuido. Contiene tres instanc
 
 
 
-Objetivo Principales 
+#Objetivo Principales 
 
 Alta disponibilidad:
   * Mantener los datos accesibles incluso si el  nodo falla.
@@ -33,7 +33,7 @@ Flexibilidad en volúmenes:
 
 
 
- Requisitos del Sistema para configurar GlusterFS
+ #Requisitos del Sistema para configurar GlusterFS
    * Nodos: se necesita minimo dos (2) hosts para tolerancia a fallo, pero se recomienda tres (3) para 
          configuraciones de alta disponibilidad. 
    * Almacenamiento en (brick): es el dispositivo de almacenamiento que se utiliza para GlusterFS debe contar 
